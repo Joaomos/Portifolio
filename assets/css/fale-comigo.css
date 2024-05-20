@@ -51,6 +51,12 @@
 
 .fale-comigo-img h3 {
     color: var(--tertiary-color);
+    text-decoration: none;
+}
+
+.fale-comigo-img h3 a {
+    color: var(--tertiary-color);
+    text-decoration: none;
 }
 
 .fale-comigo-second-part img {
@@ -108,5 +114,11 @@
 @media (max-width: 630px) {
     .fale-comigo-content {
         max-width: 419px;
+    }  
+}
+
+@media (max-width: 550px) {
+    .fale-comigo-content {
+        max-width: 365px;
     }  
 }

@@ -85,3 +85,13 @@
         height: 785px;
     }
 }
+
+@media (max-width: 550px) {
+    .sobre-content {
+        max-width: 340px;
+    }  
+
+    .vertical-line {
+        height: 875px;
+    }
+}

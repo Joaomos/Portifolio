@@ -51,15 +51,20 @@
     }
 }
 
-    @media (max-width: 790px) {
-        .skills-content {
-            max-width: 600px;
-        }
+@media (max-width: 790px) {
+    .skills-content {
+        max-width: 600px;
+    }
     }
 
-    @media (max-width: 630px) {
-        .skills-content {
-            max-width: 450px;
-        }
+@media (max-width: 630px) {
+    .skills-content {
+        max-width: 450px;
     }
+}
 
+@media (max-width: 550px) {
+    .skills-content {
+        max-width: 365px;
+    }
+}

@@ -226,3 +226,9 @@
         height: 400px;
     }
 }
+
+@media (max-width: 550px) {
+    .portifolio-content h1 {
+        max-width: 340px;
+    }
+}
