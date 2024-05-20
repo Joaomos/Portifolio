@@ -92,3 +92,21 @@
 .fale-comigo-second-part-last-line .linkedin:hover {
     border-radius: 4px;
 }
+
+@media (max-width: 1100px) {
+    .fale-comigo-content {
+        max-width: 705px;
+    }
+}
+
+@media (max-width: 790px) {
+    .fale-comigo-content {
+        max-width: 571px;
+    }
+}
+
+@media (max-width: 630px) {
+    .fale-comigo-content {
+        max-width: 419px;
+    }  
+}

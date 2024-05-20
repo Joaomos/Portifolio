@@ -55,3 +55,33 @@
     width: 100px;
     height: 100px;
 }
+
+@media (max-width: 1100px) {
+    .sobre-content {
+        max-width: 705px;
+    }
+}
+
+@media (max-width: 790px) {
+    .sobre-content {
+        max-width: 571px;
+    }
+
+    .vertical-line {
+        height: 665px;
+    }
+}
+
+@media (max-width: 630px) {
+    .sobre-content {
+        max-width: 419px;
+    }
+
+    .sobre-third-parte {
+        display: none;
+    }
+
+    .vertical-line {
+        height: 785px;
+    }
+}

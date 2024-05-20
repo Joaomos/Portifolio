@@ -22,8 +22,16 @@
     text-decoration: none;
 }
 
+.first-part-menu a:hover{
+    color: var(--secondary-color);
+}
+
 .first-part-menu a span{
     color: var(--secondary-color);
+}
+
+.first-part-menu a span:hover {
+    color: var(--tertiary-color);
 }
 
 .second-part-menu {
@@ -41,6 +49,10 @@
 .second-part-menu li ul a {
     color: var(--tertiary-color);
     text-decoration: none;
+}
+
+.second-part-menu li ul a:hover {
+    color: var(--secondary-color);
 }
 
 .second-part-menu li ul .fale-comigo-btn {
@@ -90,12 +102,7 @@
 
 @media (max-width: 1550px) {
     .menu-content {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 20px auto;
         max-width: 1034px;
-        color: var(--tertiary-color);
     }
 
     .second-part-menu {
@@ -110,12 +117,8 @@
     }
 
     .menu-content {
-        display: flex;
         justify-content: center;
-        align-items: center;
         flex-direction: column;
-        max-width: 1500px;
-        color: var(--tertiary-color);
         height: 100vh;
         text-align: center;
     }
@@ -136,9 +139,7 @@
     }
 
     .second-part-menu li {
-        display: flex;
         justify-content: flex-start;
-        align-items: center;
         flex-direction: column;
         height: 100%;
     }
@@ -158,7 +159,7 @@
         top: 30px;
         right: 30px;
         background: var(--secondary-color);
-        color: var(--primary-color);
+        color: var(--tertiary-color);
         font-size: 28px;
         line-height: 35px;
         width: 40px;

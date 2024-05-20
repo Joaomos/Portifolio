@@ -167,10 +167,6 @@
     background: var(--secondary-color-darker);
 }
 
-@media (max-width: 1550px) {
-
-}
-
 @media (max-width: 1100px) {
     .card-projetos {
         flex-direction: column;
@@ -179,17 +175,7 @@
     }
     
     .portifolio-content h1 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         width: 700px;
-        font-size: 25px;
-        color: var(--tertiary-color);
-        background: var(--secondary-color);
-        padding: 8px 15px;
-        border: var(--tertiary-color) 2px solid;
-        border-radius: 10px;
-        margin-top: 78px;
     }
 
     .primeira-parte-projetos {
@@ -209,8 +195,34 @@
     .segunda-parte-projetos {
         height: 300px;
         width: 500px;
-        background: var(--quaternary-color);
-        border-radius: 0 0 20px 20px;
         height: 100%;
+        border-radius: 0 0px 20px 20px;
+    }
+}
+
+@media (max-width: 790px) {
+    .portifolio-content h1 {
+        width: 571px;
+    }
+}
+
+@media (max-width: 630px) {
+    .portifolio-content h1 {
+        max-width: 419px;
+    }
+
+    .primeira-parte-projetos img {
+        height: 210px;
+        width: 350px;
+    }
+
+    .segunda-parte-projetos {
+        height: 510px;
+        width: 350px;
+        height: 200%;
+    }
+
+    .segunda-parte-projetos-content {
+        height: 400px;
     }
 }
