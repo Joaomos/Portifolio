@@ -1,0 +1,57 @@
+.sobre-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    background: var(--quaternary-color);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+    border: var(--secondary-color) 2px solid;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 0 var(--secondary-color);
+}
+
+.vertical-line {
+    width: 4px;
+    height: 429px;
+    background: var(--secondary-color);
+    margin: 0 20px 0 0;
+}
+
+.sobre-second-parte {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sobre-title h3 {
+    font-size: 30px;
+    color: var(--tertiary-color);
+}
+
+.sobre-title h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--tertiary-color);
+}
+
+#sou-um-developer {
+    color: var(--secondary-color);
+}
+
+.sobre-text {
+    font-size: 20px;
+    margin-top: 14px;
+    color: var(--tertiary-color);
+}
+
+.sobre-text p {
+    margin: 10px 0;
+}
+
+.sobre-third-parte img {
+    width: 100px;
+    height: 100px;
+}

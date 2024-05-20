@@ -1,0 +1,94 @@
+.fale-comigo-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1034px;
+    margin: 0 auto;
+    background: var(--quaternary-color);
+    border: var(--secondary-color) 2px solid;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 0px var(--secondary-color);
+}
+
+.fale-comigo-content h1 {
+    font-size: 40px;
+    margin: 10px 0;
+    color: var(--tertiary-color);
+}
+
+.fale-comigo-first-part {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.fale-comigo-second-part {
+    width: 100%;
+}
+
+.fale-comigo-second-part div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.fale-comigo-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.fale-comigo-imgs {
+    height: 25px;
+    width: 25px;
+    background-color: var(--secondary-color);
+    border-radius: 18px;
+    padding: 10px;
+    margin: 5px 10px 10px 15px;
+    border: var(--tertiary-color) 2px solid;
+    box-shadow: 2px 2px 1px 0 var(--tertiary-color);
+}
+
+.fale-comigo-img h3 {
+    color: var(--tertiary-color);
+}
+
+.fale-comigo-second-part img {
+    height: 25px;
+    width: 25px;
+}
+
+.fale-comigo-last-line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.fale-comigo-last-line img {
+    margin: 0 10px 0 5px;
+}
+
+.fale-comigo-first-part-last-line {
+    width: 100%;
+    margin: 5px 0 20px 10px;
+}
+
+.fale-comigo-second-part-last-line img {
+    margin:  0 15px 0 0;
+}
+
+.fale-comigo-second-part-last-line img:hover {
+    background: var(--secondary-color);
+}
+
+.fale-comigo-second-part-last-line .instagram:hover {
+    border-radius: 7px;
+}
+
+.fale-comigo-second-part-last-line .github:hover {
+    border-radius: 30px;
+}
+
+.fale-comigo-second-part-last-line .linkedin:hover {
+    border-radius: 4px;
+}

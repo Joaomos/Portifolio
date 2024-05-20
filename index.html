@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio JS</title>
+
+    <div class="links">
+        <link rel="stylesheet" href="assets/css/light mode/menu.css">
+        <link rel="stylesheet" href="assets/css/light mode/styles.css">
+        <link rel="stylesheet" href="assets/css/light mode/variables.css">
+        <link rel="stylesheet" href="assets/css/light mode/inicio.css">
+        <link rel="stylesheet" href="assets/css/light mode/portifolio.css">
+        <link rel="stylesheet" href="assets/css/light mode/sobre.css">
+        <link rel="stylesheet" href="assets/css/light mode/skills.css">
+        <link rel="stylesheet" href="assets/css/light mode/fale-comigo.css">
+    </div>
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+    <header class="menu">
+        <div class="menu-content">
+            <div class="first-part-menu">
+                <h1><a href="#inicio" class="js">JS <span class="dev">Dev.</span></a></h1>
+            </div>
+
+            <div class="second-part-menu">
+                <li onclick="getElementById('close-menu').checked = false" class="li-menu">
+                    <ul><a href="#inicio" class="inicio">Início</a></ul>
+                    <ul><a href="#sobre">Sobre</a></ul>
+                    <ul><a href="#skills">Skills</a></ul>
+                    <ul><a href="#portifolio">Portifólio</a></ul>
+                    <ul><a href="#fale-comigo" class="fale-comigo-btn">Fale Comigo</a></ul>
+                    <ul class="ul-dark-mode dark-mode-btn-change"><button class="dark-mode-img dark-mode-btn dark-mode-btn-style dark-mode-btn-change">
+                            <img src="img/dark-mode.png" alt="imagem de um sol preto" class="dark-mode-btn-style dark-mode-btn-change">
+                        </button></ul>
+                </li>
+            </div>
+        </div>
+    </header>
+
+    <section class="main-content inicio" id="inicio">
+
+        <section class="texto-inicio">
+            <h3><span id="ola">Olá,</span> me chamo</h3>
+            <h2>João Silva,</h2>
+            <h1>Full Stack <span id="developer">Developer</span></h1>
+            <h4>Acadêmico de Gestão da Informação</h4>
+
+            <div class="social-icons">
+                <div class="instagram-logo"><a href="https://www.instagram.com/joaomarcosgtr/" target="_blank"><img
+                            src="img/instagram.png" alt="logo do instagram" class="instagram"></a></div>
+                <div class="github-logo"><a href="https://github.com/Joaomos" target="_blank"><img src="img/github.png"
+                            alt="logo do github" class="github"></a>
+                </div>
+                <div class="linkedin-logo"><a href="https://www.linkedin.com/in/ojoaomarcosilva/" target="_blank"><img
+                            src="img/thumbnail_image.png" alt="logo do linkedin" class="linkedin"></a></div>
+
+            </div>
+
+            <h2 class="btn-download-cv"><button>Download CV</button></h2>
+
+        </section>
+
+        <div class="seta-para-baixo">
+            <a href="#sobre"><img src="img/seta para baixo.svg" alt="seta para baixo"></a>
+        </div>
+
+    </section>
+
+    <section class="sobre" id="sobre">
+        <div class="menu-space"></div>
+
+        <section class="sobre-content">
+            <section class="sobre-first-parte">
+                <div class="vertical-line"></div>
+            </section>
+
+            <section class="sobre-second-parte">
+                <div class="sobre-title">
+                    <h3>Sobre mim:</h3>
+                    <h1 id="sou-um-developer">Sou um Desenvolvedor</h1>
+                    <h1>Full Stack</h1>
+                </div>
+                <div class="sobre-text">
+                    <p>Sou João Marcos Silva, um estudante do terceiro período de Gestão da Informação na UFU
+                        (Universidade
+                        Federal de Uberlândia). Possuo curso de Inglês avançado com certificado oferecido pela Cultura
+                        Inglesa e pela Universidade de Cambridge.</p>
+                    <p>Atualmente, dedico meu tempo livre para o estudo de linguagens de programação como HTML, CSS e
+                        JavaScript. Estou aprimorando meu conhecimento em JavaScript para então me aprofundar nos
+                        estudos de linguagens como React, TypeScript, NextJS, SQL e Python.</p>
+                    <p>Tenho muito interesse em começar minha carreira na área da programação e me tornar um
+                        desenvolvedor de sucesso, pois é uma área que eu sempre gostei muito e sempre me identifiquei.
+                    </p>
+                    <p>Espero adquirir o máximo de conhecimento que eu puder para conseguir contribuir em diferentes
+                        áreas e ajudar no crescimento e desenvolvimento da empresa.</p>
+                </div>
+            </section>
+
+            <section class="sobre-third-parte">
+                <img src="img/aspas.png" alt="Imagem de aspas">
+            </section>
+
+        </section>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="menu-space"></div>
+
+        <section class="skills-content">
+            <div class="skills-first-part">
+                <h1>Skills</h1>
+            </div>
+
+            <div class="skills-second-part">
+                <div><img src="img/html-icon.svg" alt="Logo HTML" class="logo-html-skills">
+                    <h3>HTML</h3>
+                </div>
+                <div><img src="img/css-icon.svg" alt="Logo CSS" class="logo-css-skills">
+                    <h3>CSS</h3>
+                </div>
+                <div><img src="img/javascript-icon.svg" alt="Logo JavaScript" class="logo-javascript-skills">
+                    <h3>JavaScript</h3>
+                </div>
+                <div><img src="img/python-icon.svg" alt="Logo Python" class="logo-python-skills">
+                    <h3>Python</h3>
+                </div>
+                <div><img src="img/type-script.png" alt="Logo TypeScript" class="logo-typescript-skills">
+                    <h3>TypeScript</h3>
+                </div>
+                <div><img src="img/next-js.png" alt="Logo NextJS" class="logo-nextjs-skills">
+                    <h3>NextJS</h3>
+                </div>
+                <div><img src="img/My SQL.png" alt="Logo SQL" class="logo-sql-skills">
+                    <h3>SQL</h3>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="portifolio main-content" id="portifolio">
+
+        <section class="portifolio-content">
+
+            <h1>Portifólio</h1>
+
+            <div class="card-projetos">
+
+                <div class="primeira-parte-projetos">
+                    <img src="img/imagem projeto calculadora.png" alt="imagem de uma calculadora">
+                </div>
+
+                <div class="segunda-parte-projetos">
+
+                    <div class="segunda-parte-projetos-content">
+
+                        <div class="titulo-icons">
+
+                            <div class="titulo-projeto">
+                                <h2>Calculadora JavaScript</h2>
+                            </div>
+
+                            <div class="icons-projetos-div">
+                                <div class="icons-projetos"><img src="img/html-icon.svg" alt="Logo HTML"></div>
+                                <div class="icons-projetos"><img src="img/css-icon.svg" alt="Logo CSS"></div>
+                                <div class="icons-projetos"><img src="img/javascript-icon.svg" alt="Logo JavaScript">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="projetos-texto-resumo">
+                            <p>
+                                Este projeto implementa uma calculadora funcional usando JavaScript. A lógica está
+                                encapsulada em um objeto que gerencia o display, trata eventos de clique nos botões e
+                                realiza cálculos. O JavaScript permite inserir números e operações, limpar o display,
+                                apagar caracteres e calcular expressões matemáticas.
+                            </p>
+                        </div>
+
+                        <div class="botoes-projetos">
+                            <h2 class="btn-ver-projeto"><a href="https://calculadoraobj.netlify.app/"
+                                    target="_blank"><button>Ver Projeto</button></a></h2>
+                            <h2 class="btn-repositorio"><a href="https://github.com/Joaomos/Calculadora-JavaScript"
+                                    target="_blank"><button>
+                                        < Repositório />
+                                    </button></a></h2>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="card-projetos">
+
+                <div class="primeira-parte-projetos">
+                    <img src="img/imagem sistema de controle de estoque.png" alt="">
+                </div>
+
+                <div class="segunda-parte-projetos">
+
+                    <div class="segunda-parte-projetos-content">
+
+                        <div class="titulo-icons">
+
+                            <div class="titulo-projeto">
+                                <h2>Sistema de Controle de Estoque</h2>
+                            </div>
+
+                            <div class="icons-projetos-div">
+                                <div class="icons-projetos"><img src="img/python-icon.svg" alt="Logo Python"></div>
+                            </div>
+
+                        </div>
+
+                        <div class="projetos-texto-resumo">
+                            <p>Este projeto usa Python e Tkinter para criar um sistema de controle de estoque. Ele
+                                permite adicionar e remover produtos, registrar entradas e saídas, e gerar relatórios.
+                                Os produtos são carregados e salvos em um arquivo de texto. A interface gráfica facilita
+                                a interação do usuário com o sistema.</p>
+                        </div>
+
+                        <div class="botoes-projetos">
+                            <h2 class="btn-ver-projeto"><button>Baixar Projeto</button></h2>
+                            <h2 class="btn-repositorio"><button>
+                                    < Repositório />
+                                </button></h2>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="card-projetos">
+
+                <div class="primeira-parte-projetos">
+                    <img src="img/imagem calculadora IMC.png" alt="Imagem de um site que tem uma calculadora de IMC">
+                </div>
+
+                <div class="segunda-parte-projetos">
+
+                    <div class="segunda-parte-projetos-content">
+
+                        <div class="titulo-icons">
+
+                            <div class="titulo-projeto">
+                                <h2>Calculadora de IMC</h2>
+                            </div>
+
+                            <div class="icons-projetos-div">
+                                <div class="icons-projetos"><img src="img/html-icon.svg" alt="Logo HTML"></div>
+                                <div class="icons-projetos"><img src="img/css-icon.svg" alt="Logo CSS"></div>
+                                <div class="icons-projetos"><img src="img/javascript-icon.svg" alt="Logo JavaScript">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="projetos-texto-resumo">
+                            <p>Este script JavaScript calcula o Índice de Massa Corporal (IMC) com base nos dados
+                                inseridos pelo usuário. Ao preencher um formulário com peso e altura, o IMC é calculado
+                                e exibido na página junto com uma classificação. O código valida os dados inseridos e
+                                fornece feedback caso haja erros ou valores inválidos.</p>
+                        </div>
+
+                        <div class="botoes-projetos">
+                            <h2 class="btn-ver-projeto"><a href="https://tabela-imc-javascript.netlify.app/"
+                                    target="_blank"><button>Ver Projeto</button></a></h2>
+                            <h2 class="btn-repositorio"><a href="https://github.com/Joaomos/Tabela-IMC"
+                                    target="_blank"><button>
+                                        < Repositório />
+                                    </button></a></h2>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="ver-todos-portifolio">
+                <h2><a href="https://github.com/Joaomos" target="_blank">Ver todos projetos <img src="img/seta para frente.svg" alt="seta para frente"></a></h2>
+            </div>
+        </section>
+    </section>
+
+    <section class="fale-comigo" id="fale-comigo">
+        <div class="menu-space"></div>
+
+        <div class="fale-comigo-content">
+
+            <section class="fale-comigo-first-part">
+                <h1>Contato</h1>
+            </section>
+
+            <section class="fale-comigo-second-part">
+                <div class="fale-comigo-img fale-comigo-phone">
+                    <img src="img/phone.png" alt="Imagem de um telefone" class="fale-comigo-imgs">
+                    <h3>(34) 9 9990-6718</h3>
+                </div>
+
+                <div class="fale-comigo-img fale-comigo-mail">
+                    <img src="img/mail.png" alt="Imagem de uma carta" class="fale-comigo-imgs">
+                    <h3>joaomarcos2827@gmail.com</h3>
+                </div>
+
+                <div class="fale-comigo-img ">
+
+                    <div class="fale-comigo-last-line">
+                        <div class="fale-comigo-first-part-last-line">
+                            <img src="img/map.png" alt="Imagem de um mapa" class="fale-comigo-imgs">
+                            <h3>Uberlândia, MG, Brasil</h3>
+                        </div>
+
+                        <div class="fale-comigo-second-part-last-line">
+                            <div class="instagram-logo"><a href="https://www.instagram.com/joaomarcosgtr/"
+                                    target="_blank"><img src="img/instagram.png" alt="logo do instagram"
+                                        class="instagram"></a></div>
+                            <div class="github-logo"><a href="https://github.com/Joaomos" target="_blank"><img
+                                        src="img/github.png" alt="logo do github" class="github"></a>
+                            </div>
+                            <div class="linkedin-logo"><a href="https://www.linkedin.com/in/ojoaomarcosilva/"
+                                    target="_blank"><img src="img/thumbnail_image.png" alt="logo do linkedin"
+                                        class="linkedin"></a></div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </section>
+
+        </div>
+        <div class="menu-space"></div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

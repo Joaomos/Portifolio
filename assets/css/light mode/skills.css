@@ -1,0 +1,40 @@
+.skills-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--quaternary-color);
+    max-width: 1034px;
+    margin: 0 auto;
+    border: var(--secondary-color) 2px solid;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 0 var(--secondary-color);
+}
+
+.skills-first-part h1 {
+    font-size: 40px;
+    margin: 15px;
+    color: var(--tertiary-color);
+}
+
+.skills-second-part {
+    display: flex;
+}
+
+.skills-second-part img {
+    width: 70px;
+    height: 70px;
+}
+
+.skills-second-part h3 {
+    color: var(--tertiary-color);
+}
+
+.skills-second-part div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 30px;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,99 @@
+.inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.texto-inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 95vh;
+    color: var(--tertiary-color);
+}
+
+.texto-inicio h3 {
+    font-size: 1.4em;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.texto-inicio #ola {
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    padding: 1px 12px;
+    border: var(--tertiary-color) 2px solid;
+    border-radius: 4px;
+    font-weight: 500;
+    box-shadow: 2px 2px 1px 0 var(--tertiary-color);
+}
+
+.texto-inicio h2 {
+    font-size: 3em;
+}
+
+.texto-inicio h1 {
+    font-size: 3.5em;
+}
+
+.texto-inicio h1 span {
+    color: var(--secondary-color);
+}
+
+.texto-inicio h4 {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 8px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons img {
+    height: 25px;
+    width: 25px;
+    margin: 15px 10px 0;
+}
+
+.social-icons img:hover {
+    background: var(--quaternary-color);
+}
+
+.social-icons .instagram:hover {
+    border-radius: 7px;
+}
+
+.social-icons .github:hover {
+    border-radius: 30px;
+}
+.social-icons .linkedin:hover {
+    border-radius: 4px;
+}
+
+.btn-download-cv button {
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    border: var(--tertiary-color) 2px solid;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 25px;
+    box-shadow: 2px 2px 1px 0 var(--tertiary-color);
+}
+
+.btn-download-cv button:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border: var(--secondary-color) 2px solid;
+    cursor: pointer;
+}
+
+.seta-para-baixo {
+    transition: all 2s ease-in-out ;
+}
