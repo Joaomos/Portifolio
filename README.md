@@ -68,6 +68,9 @@ Para visualizar o projeto localmente, siga os passos abaixo:
 
 3. Abra o arquivo `index.html` no seu navegador preferido.
 
+Ou acesse pelo link:
+- https://joaomos.netlify.app/
+
 ## Seções do Portfólio
 
 ### Início
