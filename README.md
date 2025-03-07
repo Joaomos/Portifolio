@@ -95,20 +95,13 @@ Informações de contato, incluindo telefone, email e links para redes sociais.
 
 ## Contato
 
-Se você deseja entrar em contato comigo, pode me encontrar nas seguintes plataformas:
+Se tiver dúvidas ou sugestões, entre em contato:
 
-- **Email**: joaomarcos2827@gmail.com
-- **Telefone**: (34) 9 9990-6718
-- **LinkedIn**: [João Marcos Silva](https://www.linkedin.com/in/ojoaomarcosilva/)
-- **GitHub**: [Joaomos](https://github.com/Joaomos)
-- **Instagram**: [joaomarcosgtr](https://www.instagram.com/joaomarcosgtr/)
-
-## Licença
-
-Este projeto é licenciado sob a [MIT License](LICENSE).
-
----
+- **Nome:** João Marcos
+- **E-mail:** joaomarcos2827@gmail.com
+- **GitHub:** [Joaomos](https://github.com/Joaomos)
+- **LinkedIn:** [João Marcos](https://www.linkedin.com/in/ojoaomarcosilva/)
 
 Obrigado por visitar meu portfólio! Sinta-se à vontade para explorar e entrar em contato. Estou sempre aberto a novas oportunidades e colaborações.
 
-João Marcos Silva
+João Marcos de Oliveira Silva
